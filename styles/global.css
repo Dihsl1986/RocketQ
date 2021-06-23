@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+html{
+    --black:#0D114F;
+    --white:#FAFAFA;
+    --red:#E83F5B;
+    --light-blue:#E0ECFF;
+    --blue:#3485FF;
+    --background:#FBFCFF;
+    --overlay:#040911;
+    --icons-details:#A5B0C1;
+
+    --gray-dark:#4D5E77;
+    --gray-blue:#A1B2CD;
+    --gray-medium:#D3D9E2;
+    --gray-light:#D3D9E2;
+
+    /*font-size: 62.5rem;*/
+}
