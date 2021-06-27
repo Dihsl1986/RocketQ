@@ -1,6 +1,6 @@
 .content{
     display:grid;
-    grid-template-columns: 45% 55%;
+    grid-template-columns: 60% 40%;
     grid-template-rows: 11.4rem 1fr;
 
     grid-template-areas: 
@@ -13,22 +13,21 @@ header{
 }
 
 #bg{
-    grid-area:span;
+    grid-area:left;
     background: url('/assets/home-bg-img.svg') no-repeat top/contain;
-    background-position-x:3.5rem;
-    
+    background-position-x: -10rem;    
 }
 
 main{
-    grid-area: right;
+    grid-area:right;
 
     display: flex;
     align-items: center;
-    margin-top: 15rm;
+    margin-top: -12rem;
 }
 
 main .container{
-    width: min(36.3rem, 100%);
+    width: min(46.3rem, 100%);
 } 
 
 main h2{
@@ -40,7 +39,7 @@ main h2{
 
 input{
     border: .2rem solid var(--gray-blue);
-    padding: 0 1.6rem;
+    padding: 0, 1.6rem;
     outline:none;
     
 }
@@ -50,7 +49,7 @@ input,button, .button{
     margin-bottom: 1.8rem;
 }
 
-/*Create balls*/
+/*Separator line*/
 
 .separator{
     display: flex;
@@ -72,4 +71,28 @@ input,button, .button{
     background: var(--grey-blue);
     width: 100%;
     height: 1px;
+}
+
+/*Create balls*/
+
+.ball{
+    width: 21.2rem;
+    height:21.2rem;
+    background: var(--blue);
+    clip-path: circle();
+    opacity: 0.1;
+
+    position: fixed;
+}
+
+.ball.top{
+    top: -46rem;
+    width: 63.3rem;
+    right: -35rem;
+    height: 63.3em;
+}
+
+.ball.bottom{
+    bottom: -15rem;
+    right: 5.6rem;
 }
