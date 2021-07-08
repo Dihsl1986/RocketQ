@@ -1,5 +1,5 @@
 .content{
-    max-width: min(112rem, 90%);
+    max-width: min(112rem,90%);
 }
 
 #room header{
@@ -101,6 +101,7 @@
     padding: 2.4rem;
 }
 
+
 .question-wrapper .question-content{
     display: flex;
     align-items: flex-start;
@@ -119,7 +120,6 @@
     align-items: center;
     min-height: 5.5rem;
 }
-
 .question-wrapper .actions{
     display: flex;
     align-items: center;
@@ -130,16 +130,16 @@
     display: flex;
     align-items: center;
 }
-
-.question-wrapper .actions > a > img{
+.question-wrapper .actions > a > img {
     margin-right: .8rem;
 }
 
-.question-wrapper .actions > a + a{
-    margin-left: 2.4rem;
+.question-wrapper .actions > a + a {
+     margin-left: 2.4rem;
 }
 
-/***** Question Read ****/
+/**Quention read**/
+
 .question-wrapper.read{
     background: var(--grey-medium);
 }
@@ -149,24 +149,4 @@
 }
 
 
-/*** No Questions   **/
-.no-questions{
-    text-align: center;
-    margin-top: 5.2rem;
-}
-.no-questions img{
-    max-width: 100%;
-    margin-bottom: 1.2rem;
-}
-.no-questions p{
-    font-family: 'Poppins', sans-serif; 
-    font-size: 1.8rem;
-    font-weight: 600;
-}
-.no-questions p + p{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.4rem;
-    font-weight: 400;   
-    margin-top: 1.3rem;
-    line-height: 1.9rem;
-}
+
