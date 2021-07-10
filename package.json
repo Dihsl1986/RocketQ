@@ -1,0 +1,24 @@
+{
+  "name": "RocketQ",
+  "version": "1.0.0",
+  "description": "Projeto para gerenciamento de perguntas anônimas ao dono da página. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dihsl1986/RocketQ.git"
+  },
+  "keywords": [],
+  "author": "Diego Santos Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dihsl1986/RocketQ/issues"
+  },
+  "homepage": "https://github.com/Dihsl1986/RocketQ#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
