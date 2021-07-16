@@ -30,6 +30,13 @@ deleteButton.forEach(button => {
 function handleClick(event, check = true){
     event.preventDefault() // Esses links não se comportão mais como links 
     const text = check ? "Marcar como lida" : "Excluir"
+    const slug = check ? "check" : "delete"
+    const roomId = document.querySelector("#room-id").dataset.id
+    const questionId = event.target.dataset.id
+
+    const form = document.querySelector(".modal form")
+    form.setAttribute("action", `/room/${roomId}/${questionId}/${slug}`) //
+    // Aqui é para url para onde o furmulário vai
 
     modalTitle.innerHTML= `${text} esta pergunta`
     modalDescrition.innerHTML= `Tem certeza que deseja ${text.toLocaleLowerCase()} esta pergunta?`
