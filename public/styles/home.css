@@ -1,7 +1,7 @@
 .content{
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 11.4rem 1fr;
+    grid-template-rows: 12.4rem 1fr;
 
     grid-template-areas: 
     'header header'
@@ -16,7 +16,7 @@ header{
     grid-area: auto;
 
     background: url('/images/home-bg-img.svg') no-repeat top/contain;
-    background-position-x: 10rem;
+    background-position-x: -10rem;
 }
 
 main{
@@ -27,7 +27,7 @@ main{
 }
 
 main .container{    
-    width: min(36.3rem, 100%);
+    width: min(36.3rem, 90%);
 }
 
 main h2{
