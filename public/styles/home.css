@@ -16,7 +16,7 @@ header{
     grid-area: auto;
 
     background: url('/images/home-bg-img.svg') no-repeat top/contain;
-    background-position-x: -10rem;
+    background-position-x: 10rem;
 }
 
 main{
