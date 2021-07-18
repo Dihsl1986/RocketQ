@@ -35,7 +35,7 @@ function handleClick(event, check = true){
     const questionId = event.target.dataset.id
 
     const form = document.querySelector(".modal form")
-    form.setAttribute("action", `/room/${roomId}/${questionId}/${slug}`) //
+    form.setAttribute("action", `/question/${roomId}/${questionId}/${slug}`) //
     // Aqui é para url para onde o furmulário vai
 
     modalTitle.innerHTML= `${text} esta pergunta`
