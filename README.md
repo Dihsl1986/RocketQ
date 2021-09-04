@@ -39,7 +39,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 
 Autor ##
-Primeira aplicação concluída por : Diego Santos Lima e testando
+Primeira aplicação concluída por : Diego Santos Lima
 
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=link_do_seu_perfil_no_linkedin)](https://www.linkedin.com/in/diego-santos-lima-a2380899/)
