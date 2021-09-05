@@ -16,25 +16,25 @@ header{
     grid-area: auto;
 
     background: url('/images/home-bg-img.svg') no-repeat top/contain;
-    background-position-x: 10rem;
+    background-position-x: 1.0rem;
 }
 
 main{
     grid-area: right;
     display: flex;
     align-items: center;
-    margin-top: -1.2rem;
+    margin-top: 1.2rem;
 }
 
 main .container{    
-    width: min(36.3rem, 90%);
+    width: min(36.1rem, 90%);
 }
 
 main h2{
     font-family: 'Poppins', sans-serif;
     color: var(--black);
-    font-size: clamp(20px, 5vw, 2.8rem);
-    margin-bottom: 2.4rem;
+    font-size: clamp(20px, 5vw, 2.0rem);
+    margin-bottom: 1.1rem;
 }
 
 input{
